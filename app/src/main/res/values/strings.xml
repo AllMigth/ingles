@@ -1,0 +1,27 @@
+<resources>
+    <string name="app_name">English Linking</string>
+    <string name="large_text">
+        In this activity you must fill in the fields according to the adjective you think you see in the image.
+    </string>
+    <string name="title_activity_adjetives">Activity Adjetives</string>
+    <string name="action_settings">Settings</string>
+    <string name="joyful">Joyful</string>
+    <string name="typerYourAnwser">Typer Your Anwser</string>
+    <string name="angry">Angry</string>
+    <string name="title_activity_identify">Identify Activity</string>
+    <string name="title_activity_hear_and_write">Activity Hear and Write</string>
+    <string name="hear_title_activity">Hear and Write</string>
+    <string name="WriteHere">Write here</string>
+    <string name="title_activity_animales">Animals Activity</string>
+    <string name="title_activity_animals">Animals Activity</string>
+    <string name="title_activity_splash">splash</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+</resources>

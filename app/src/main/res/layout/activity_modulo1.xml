@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".modulo1">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="50dp"
+        tools:layout_editor_absoluteX="25dp"
+        tools:layout_editor_absoluteY="124dp">
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Modulo 1" />
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_margin="20dp"
+            android:text="Put here your knowledge" />
+
+        <Button
+            android:id="@+id/btnModulo1Adjetives"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Adjetives"
+            android:textColor="#FFFFFF"
+            android:background="@drawable/boton_redondo"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnModulo2IdentifyObjects"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Identify the objects"
+            android:background="@drawable/boton_redondo"
+            android:textColor="@color/textColor"
+            android:layout_margin="10dp"
+
+            />
+
+        <Button
+            android:id="@+id/btnModulo3HearAndWrite"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Hear and write"
+            android:textColor="@color/textColor"
+            android:background="@drawable/boton_redondo"
+            android:layout_margin="10dp"
+            />
+
+        <Button
+            android:id="@+id/btnActivityAnimals"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Animals"
+            android:textColor="@color/textColor"
+            android:background="@drawable/boton_redondo"
+            android:layout_margin="10dp"
+            android:onClick="actAnimals"
+            />
+
+    </LinearLayout>
+
+
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
