@@ -9,9 +9,8 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/AppTheme">
-        <activity android:name=".splash">
-
-        </activity>
+        <activity android:name=".Profile"></activity>
+        <activity android:name=".login_first" />
         <activity android:name=".order_words" />
         <activity android:name=".module1_hearAndWrite" />
         <activity android:name=".module1_identify" />
@@ -20,6 +19,7 @@
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
