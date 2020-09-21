@@ -11,7 +11,7 @@
         android:layout_height="match_parent"
         android:orientation="vertical"
         android:gravity="center"
-        android:background="@drawable/topography"
+        android:background="@drawable/fondo_login"
 
         >
 
@@ -22,7 +22,8 @@
             android:layout_gravity="center"
             app:srcCompat="@drawable/uleam"
             tools:layout_editor_absoluteX="95dp"
-            tools:layout_editor_absoluteY="112dp" />
+            tools:layout_editor_absoluteY="112dp"
+            android:contentDescription="@string/logo_uleam" />
 
         <Button
             android:layout_width="wrap_content"

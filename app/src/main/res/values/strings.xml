@@ -31,7 +31,7 @@
     <string name="Logout">Logout</string>
     <string name="Nombre">TextView</string>
     <string name="Email">TextView</string>
-    <string name="logo_uleam">Logo Uleam</string>
     <string name="welcome">Welcome</string>
+    <string name="logo_uleam">Logo Uleam</string>
 
 </resources>
