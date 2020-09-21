@@ -42,19 +42,6 @@ public class module1_adjetives extends AppCompatActivity {
         once = findViewById(R.id.editTextimageView11);
         doce = findViewById(R.id.editTextimageView12);
 
-        valoresTXT1 = findViewById(R.id.valores1);
-        valoresTXT2 = findViewById(R.id.valores2);
-        valoresTXT3 = findViewById(R.id.valores3);
-        valoresTXT4 = findViewById(R.id.valores4);
-        valoresTXT5 = findViewById(R.id.valores5);
-        valoresTXT6 = findViewById(R.id.valores6);
-        valoresTXT7 = findViewById(R.id.valores7);
-        valoresTXT8 = findViewById(R.id.valores8);
-        valoresTXT9 = findViewById(R.id.valores9);
-        valoresTXT10 = findViewById(R.id.valores10);
-        valoresTXT11 = findViewById(R.id.valores11);
-        valoresTXT12 = findViewById(R.id.valores12);
-
         send = findViewById(R.id.buttonAdjetives);
 
         /*public void validarCampos (View view){

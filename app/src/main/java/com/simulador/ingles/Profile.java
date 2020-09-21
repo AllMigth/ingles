@@ -21,8 +21,8 @@ public class Profile extends AppCompatActivity {
         setContentView(R.layout.activity_profile);
 
         logout = findViewById(R.id.logoutButton);
-        name = findViewById(R.id.logoutButton);
-        email = findViewById(R.id.logoutButton);
+        name = findViewById(R.id.nameTV);
+        email = findViewById(R.id.emailTV);
 
 
         GoogleSignInAccount signInAccount = GoogleSignIn.getLastSignedInAccount(this);
