@@ -4,48 +4,51 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@color/textColor"
     tools:context=".modulo1">
 
     <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="wrap_content"
+        android:layout_width="411dp"
+        android:layout_height="675dp"
         android:orientation="vertical"
-        android:layout_marginBottom="50dp"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="124dp">
-
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.714"
+        tools:layout_editor_absoluteX="0dp">
 
         <TextView
+            android:id="@+id/textView2"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
-            android:layout_margin="20dp"
-            android:text="Modulo 1" />
+            android:paddingLeft="10dp"
+            android:text="@string/module1"
+            android:textSize="30sp" />
+
         <TextView
-            android:layout_width="wrap_content"
+            android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:layout_gravity="center"
             android:layout_margin="20dp"
-            android:text="Put here your knowledge" />
+            android:text="Put here your knowledge bla bla bla..." />
 
         <Button
             android:id="@+id/btnModulo1Adjetives"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Adjetives"
-            android:textColor="#FFFFFF"
+            android:layout_margin="20dp"
             android:background="@drawable/boton_redondo"
-            android:layout_margin="10dp"
-            />
+            android:text="@string/adjetiveTittleButton"
+            android:textColor="#FFFFFF" />
 
         <Button
             android:id="@+id/btnModulo2IdentifyObjects"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Identify the objects"
+            android:layout_margin="20dp"
             android:background="@drawable/boton_redondo"
+            android:text="@string/identifyTitleButton"
             android:textColor="@color/textColor"
-            android:layout_margin="10dp"
 
             />
 
@@ -53,26 +56,28 @@
             android:id="@+id/btnModulo3HearAndWrite"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Hear and write"
-            android:textColor="@color/textColor"
+            android:layout_margin="20dp"
             android:background="@drawable/boton_redondo"
-            android:layout_margin="10dp"
-            />
+            android:text="Hear and write"
+            android:textColor="@color/textColor" />
 
         <Button
             android:id="@+id/btnActivityAnimals"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:text="Animals"
-            android:textColor="@color/textColor"
+            android:layout_margin="20dp"
             android:background="@drawable/boton_redondo"
-            android:layout_margin="10dp"
             android:onClick="actAnimals"
-            />
+            android:text="Animals"
+            android:textColor="@color/textColor" />
+
+        <ImageView
+            android:id="@+id/imageView14"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            app:srcCompat="@drawable/second_image" />
 
     </LinearLayout>
-
-
 
 
 </androidx.constraintlayout.widget.ConstraintLayout>

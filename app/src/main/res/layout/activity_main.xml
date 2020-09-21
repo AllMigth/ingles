@@ -2,68 +2,115 @@
 <androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/relativeLayout"
     android:layout_width="match_parent"
+    android:background="@color/textColor"
     android:layout_height="match_parent"
     tools:context=".MainActivity">
 
-    <LinearLayout
-        android:layout_width="match_parent"
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:orientation="vertical"
-        android:layout_marginBottom="50dp"
-        tools:layout_editor_absoluteX="25dp"
-        tools:layout_editor_absoluteY="124dp">
+        android:layout_gravity="center"
+        android:layout_marginStart="51dp"
+        android:layout_marginEnd="56dp"
+        android:layout_marginBottom="319dp"
+        android:text="@string/tituloMainActivity"
+        android:textAlignment="center"
+        android:textColor="@color/colorVerdeU"
+        android:textSize="25sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/nameTV"
+        app:layout_constraintVertical_bias="0.31" />
 
+    <Button
+        android:id="@+id/btnModulo1"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:background="@color/colorGrisU"
+        android:text="@string/startHere"
+        android:textColor="@color/textColor"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.498"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="0.102" />
 
-        <ImageView
-            android:id="@+id/imageView2"
-            android:layout_width="221dp"
-            android:layout_height="133dp"
-            android:layout_gravity="center"
-            app:srcCompat="@drawable/uleam"
-            tools:layout_editor_absoluteX="95dp"
-            tools:layout_editor_absoluteY="122dp" />
+    <Button
+        android:id="@+id/logoutButton"
+        android:layout_width="82dp"
+        android:layout_height="46dp"
+        android:layout_marginTop="16dp"
+        android:background="@drawable/boton_redondo"
+        android:text="@string/Logout"
+        android:textColor="@color/textColor"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.93"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
 
-        <TextView
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_gravity="center"
-            android:layout_margin="20dp"
-            android:textSize="20dp"
-            android:text="Aprendizaje del idioma inglés" />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="60dp"
+        android:text="@string/welcome"
+        android:textSize="20sp"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/emailTV" />
 
-        <Button
-            android:id="@+id/btnModulo1"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Modulo 1"
-            android:background="@drawable/boton_redondo"
-            android:textColor="@color/textColor"
-            android:layout_margin="10dp"
-            />
+    <TextView
+        android:id="@+id/nameTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="112dp"
+        android:layout_marginEnd="101dp"
+        android:text="@string/Nombre"
+        android:textColor="@color/colorRojoU"
+        android:textSize="20sp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.474"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/textView4"
+        app:layout_constraintVertical_bias="0.091" />
 
-        <Button
-            android:id="@+id/btnModulo2"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Modulo 2"
-            android:background="@drawable/boton_redondo"
-            android:layout_margin="10dp"
-            android:textColor="@color/textColor"
+    <TextView
+        android:id="@+id/emailTV"
+        android:layout_width="201dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="110dp"
+        android:layout_marginTop="60dp"
+        android:layout_marginEnd="100dp"
+        android:layout_marginBottom="652dp"
+        android:enabled="false"
+        android:text="@string/Email"
+        android:textColor="@color/colorRojoU"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.478"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.037" />
 
-            />
-
-        <Button
-            android:id="@+id/btnModulo3"
-            android:layout_width="match_parent"
-            android:layout_height="wrap_content"
-            android:text="Modulo 3"
-            android:background="@drawable/boton_redondo"
-            android:layout_margin="10dp"
-            android:textColor="@color/textColor"
-            />
-
-    </LinearLayout>
-
+    <ImageView
+        android:id="@+id/imageView13"
+        android:layout_width="408dp"
+        android:layout_height="323dp"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.333"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/title"
+        app:layout_constraintVertical_bias="1.0"
+        app:srcCompat="@drawable/init_pic" />
 
 </androidx.constraintlayout.widget.ConstraintLayout>

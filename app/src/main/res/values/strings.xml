@@ -20,8 +20,18 @@
     <string name="second_fragment_label">Second Fragment</string>
     <string name="next">Next</string>
     <string name="previous">Previous</string>
+    <string name="startHere">Start Here</string>
 
     <string name="hello_first_fragment">Hello first fragment</string>
     <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+    <string name="tituloMainActivity">English Learning with Kidya</string>
+    <string name="module1">Module one</string>
+    <string name="identifyTitleButton">Identify the objects</string>
+    <string name="adjetiveTittleButton">Adjetives</string>
+    <string name="Logout">Logout</string>
+    <string name="Nombre">TextView</string>
+    <string name="Email">TextView</string>
+    <string name="logo_uleam">Logo Uleam</string>
+    <string name="welcome">Welcome</string>
 
 </resources>
