@@ -9,7 +9,7 @@
 
     <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="75dp" >
+        android:layout_height="73dp">
 
         <ImageView
             android:id="@+id/imageView"
@@ -43,23 +43,31 @@
             android:layout_gravity="center"
             android:layout_margin="30dp"
             android:paddingTop="20dp"
-            android:text="@string/large_text" />
+            android:text="@string/hearAndWriteDescription" />
     </LinearLayout>
 
 
 
     <TableRow  android:gravity="center">
-        <ImageButton
+        <Button
+            android:id="@+id/btnSound1"
             android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
+            android:text="P"
+            android:background="@drawable/player_button"
             />
-        <ImageButton
+        <Button
+            android:id="@+id/btnSound2"
+            android:text="B"
             android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
+            android:layout_margin="10dp"
+            android:background="@drawable/player_button"
             />
-        <ImageButton
+        <Button
+            android:id="@+id/btnSound3"
             android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"/>
+            android:text="O"
+            android:background="@drawable/player_button"
+            />
     </TableRow>
 
     <TableRow
@@ -67,16 +75,19 @@
         >
 
         <EditText
+            android:id="@+id/editTextSound1"
             android:layout_column="1"
             app:srcCompat="@android:drawable/ic_media_play"
             android:hint="@string/WriteHere"
             />
         <EditText
+            android:id="@+id/editTextSound2"
             android:layout_column="1"
             app:srcCompat="@android:drawable/ic_media_play"
             android:hint="@string/WriteHere"
             />
         <EditText
+            android:id="@+id/editTextSound3"
             android:layout_column="1"
             app:srcCompat="@android:drawable/ic_media_play"
             android:hint="@string/WriteHere"
@@ -87,63 +98,41 @@
     <TableRow
         android:gravity="center"
         >
-        <ImageButton
+        <Button
+            android:id="@+id/btnSound4"
             android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
+            android:text="G"
+            android:background="@drawable/player_button"/>
+        <Button
+            android:id="@+id/btnSound5"
             android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
+            android:text="C"
+            android:layout_margin="10dp"
+            android:background="@drawable/player_button"/>
+        <Button
+            android:id="@+id/btnSound6"
             android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
+            android:text="E"
+            android:background="@drawable/player_button"/>
     </TableRow>
 
     <TableRow
         android:gravity="center"
         >
         <EditText
+            android:id="@+id/editTextSound4"
             android:layout_column="1"
             app:srcCompat="@android:drawable/ic_media_play"
             android:hint="@string/WriteHere"
             />
         <EditText
+            android:id="@+id/editTextSound5"
             android:layout_column="1"
             app:srcCompat="@android:drawable/ic_media_play"
             android:hint="@string/WriteHere"
             />
         <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-    </TableRow>
-    <TableRow
-        android:gravity="center"
-        >
-        <ImageButton
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
-            android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
-            android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-    </TableRow>
-    <TableRow
-        android:gravity="center"
-        >
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-        <EditText
+            android:id="@+id/editTextSound6"
             android:layout_column="1"
             app:srcCompat="@android:drawable/ic_media_play"
             android:hint="@string/WriteHere"
@@ -152,211 +141,98 @@
     <TableRow
         android:gravity="center"
         >
-        <ImageButton
+        <Button
+            android:id="@+id/btnSound7"
             android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
+            android:text="S"
+            android:background="@drawable/player_button"/>
+        <Button
+            android:id="@+id/btnSound8"
             android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
+            android:text="R"
+            android:layout_margin="10dp"
+            android:background="@drawable/player_button"/>
+        <Button
+            android:id="@+id/btnSound9"
             android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
+            android:text="C"
+            android:background="@drawable/player_button"/>
     </TableRow>
     <TableRow
         android:gravity="center"
         >
         <EditText
+            android:id="@+id/editTextSound7"
             android:layout_column="1"
             app:srcCompat="@android:drawable/ic_media_play"
             android:hint="@string/WriteHere"
             />
         <EditText
+            android:id="@+id/editTextSound8"
             android:layout_column="1"
             app:srcCompat="@android:drawable/ic_media_play"
             android:hint="@string/WriteHere"
             />
         <EditText
+            android:id="@+id/editTextSound9"
             android:layout_column="1"
             app:srcCompat="@android:drawable/ic_media_play"
             android:hint="@string/WriteHere"
             />
     </TableRow>
-    <TableRow  android:gravity="center">
-        <ImageButton
+    <TableRow
+        android:gravity="center"
+        >
+        <Button
+            android:id="@+id/btnSound10"
             android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
+            android:text="W"
+            android:background="@drawable/player_button"
+            />
+        <Button
+            android:id="@+id/btnSound11"
             android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
+            android:text="M"
+            android:layout_margin="10dp"
+            android:background="@drawable/player_button"/>
+        <Button
+            android:id="@+id/btnSound12"
             android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
+            android:text="D"
+            android:background="@drawable/player_button"
+            />
     </TableRow>
-
     <TableRow
         android:gravity="center"
         >
         <EditText
+            android:id="@+id/editTextSound10"
             android:layout_column="1"
             app:srcCompat="@android:drawable/ic_media_play"
             android:hint="@string/WriteHere"
             />
         <EditText
+            android:id="@+id/editTextSound11"
             android:layout_column="1"
             app:srcCompat="@android:drawable/ic_media_play"
             android:hint="@string/WriteHere"
             />
         <EditText
+            android:id="@+id/editTextSound12"
             android:layout_column="1"
+            android:inputType=""
             app:srcCompat="@android:drawable/ic_media_play"
             android:hint="@string/WriteHere"
             />
     </TableRow>
 
-    <TableRow  android:gravity="center">
-        <ImageButton
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
-            android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
-            android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-    </TableRow>
-
-    <TableRow
-        android:gravity="center"
-        >
-
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-    </TableRow>
-
-    <TableRow  android:gravity="center">
-        <ImageButton
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
-            android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
-            android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-    </TableRow>
-
-    <TableRow
-        android:gravity="center"
-        >
-
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-    </TableRow>
-
-    <TableRow  android:gravity="center">
-        <ImageButton
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
-            android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
-            android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-    </TableRow>
-
-    <TableRow
-        android:gravity="center"
-        >
-
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-    </TableRow>
-
-    <TableRow  android:gravity="center">
-        <ImageButton
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
-            android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-        <ImageButton
-            android:layout_column="2"
-            app:srcCompat="@android:drawable/ic_media_play"/>
-    </TableRow>
-
-    <TableRow
-        android:gravity="center"
-        >
-
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-        <EditText
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_media_play"
-            android:hint="@string/WriteHere"
-            />
-    </TableRow>
-
-    <TableRow  android:gravity="center"
-        android:paddingBottom="40dp"
-       android:paddingEnd="40dp">
-        <ImageButton
-            android:layout_width="25dp"
-            android:layout_height="25dp"
-            android:layout_column="1"
-            app:srcCompat="@android:drawable/ic_menu_send"
+        <Button
+            android:id="@+id/validarRespuestaDeSonidos"
+            android:layout_width="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_height="40dp"
+            android:text="Check"
+            android:textColor="#FFFFFF"
             android:background="@color/colorVerdeU"
-
             />
-    </TableRow>
-
-
 </TableLayout>

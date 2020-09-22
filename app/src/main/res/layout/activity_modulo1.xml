@@ -14,7 +14,8 @@
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintTop_toTopOf="parent"
         app:layout_constraintVertical_bias="0.714"
-        tools:layout_editor_absoluteX="0dp">
+        tools:layout_editor_absoluteX="0dp"
+        tools:ignore="MissingConstraints">
 
         <TextView
             android:id="@+id/textView2"
@@ -36,7 +37,7 @@
             android:id="@+id/btnModulo1Adjetives"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="15dp"
             android:background="@drawable/boton_redondo"
             android:text="@string/adjetiveTittleButton"
             android:textColor="#FFFFFF" />
@@ -45,7 +46,7 @@
             android:id="@+id/btnModulo2IdentifyObjects"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="15dp"
             android:background="@drawable/boton_redondo"
             android:text="@string/identifyTitleButton"
             android:textColor="@color/textColor"
@@ -56,7 +57,7 @@
             android:id="@+id/btnModulo3HearAndWrite"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="15dp"
             android:background="@drawable/boton_redondo"
             android:text="Hear and write"
             android:textColor="@color/textColor" />
@@ -65,10 +66,10 @@
             android:id="@+id/btnActivityAnimals"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
-            android:layout_margin="20dp"
+            android:layout_margin="15dp"
             android:background="@drawable/boton_redondo"
             android:onClick="actAnimals"
-            android:text="Animals"
+            android:text="@string/orderNumber"
             android:textColor="@color/textColor" />
 
         <ImageView

@@ -17,8 +17,8 @@ public class order_words extends AppCompatActivity {
 
     RecyclerView recyclerView;
     RecyclerAdapter recyclerAdapter;
-
     List<String> wordsToOrder;
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -35,6 +35,7 @@ public class order_words extends AppCompatActivity {
         wordsToOrder.add("eighth");
         wordsToOrder.add("ninth");
         wordsToOrder.add("tenth");
+        Collections.shuffle(wordsToOrder);
 
         recyclerView = findViewById(R.id.recyclerView);
         recyclerAdapter = new RecyclerAdapter(wordsToOrder);
@@ -44,8 +45,8 @@ public class order_words extends AppCompatActivity {
         recyclerView.addItemDecoration(divederItemDecoration);
         ItemTouchHelper itemTouchHelper = new ItemTouchHelper(simpleCallback);
         itemTouchHelper.attachToRecyclerView(recyclerView);
-
     }
+
     ItemTouchHelper.SimpleCallback simpleCallback = new ItemTouchHelper.SimpleCallback(ItemTouchHelper.UP |
             ItemTouchHelper.DOWN | ItemTouchHelper.START | ItemTouchHelper.END, 0) {
         @Override
@@ -58,8 +59,6 @@ public class order_words extends AppCompatActivity {
         }
 
         @Override
-        public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {
-
-        }
+        public void onSwiped(@NonNull RecyclerView.ViewHolder viewHolder, int direction) {}
     };
 }

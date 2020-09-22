@@ -33,5 +33,8 @@
     <string name="Email">TextView</string>
     <string name="welcome">Welcome</string>
     <string name="logo_uleam">Logo Uleam</string>
+    <string name="hearAndWriteDescription">In this activity you hear the animal sound and write what animals you think is in the sound. The first char of the animal name is in the button. Enjoy.</string>
+    <string name="orderNumber">Order the numbers</string>
+    <string name="orderNumberDescription">In this activity you can drag and drop the elements and order the number from 1 to 10</string>
 
 </resources>
